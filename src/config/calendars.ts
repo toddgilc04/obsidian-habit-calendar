@@ -11,24 +11,34 @@ export interface CalendarConfig {
 
 export const calendarsConfig: CalendarConfig[] = [
 	{
-		title: 'Run or Ski',
+		title: 'Volleyball',
 		options: [
-			{ key: 'run', label: 'Run', color: '#3b82f6' },
-			{ key: 'ski', label: 'Ski', color: '#06b6d4' },
+			{ key: 'home', label: 'Home', color: '#3b82f6' },
+			{ key: 'court', label: 'Court', color: '#06b6d4' },
 		],
 	},
 	{
-		title: 'Lifting',
+		title: 'Gym',
 		options: [
-			{ key: 'lifting', label: 'Lifting', color: '#ef4444' },
+			{ key: 'gym', label: 'Gym', color: '#ef4444' },
 		],
 	},
 	{
-		title: 'Studying',
+		title: 'Guitar',
 		options: [
-			{ key: 'study1h', label: '1h', color: '#196c2e' },
-			{ key: 'study3h', label: '2h', color: '#2ea043' },
-			{ key: 'study4h', label: '3h+', color: '#56d364' },
+			{ key: 'guitar', label: 'Guitar', color: '#196c2e' },
+		],
+	},
+	{
+		title: 'Russian',
+		options: [
+			{ key: 'russian', label: 'Russian', color: '#d303fc' },
+		],
+	},
+	{
+		title: 'Drawing',
+		options: [
+			{ key: 'drawing', label: 'Drawing', color: '#fce303' },
 		],
 	},
 ];

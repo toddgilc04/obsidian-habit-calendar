@@ -40,7 +40,7 @@ export default function CalendarPage({ initialActivities }: CalendarPageProps) {
 
 	const { data: activities = initialActivities } =
 		api.calendar.getActivities.useQuery(
-			{ startDate: startDate ?? "",  endDate: endDate ?? "" },
+			{ startDate,  endDate },
 			{ initialData: initialActivities },
 		);
 

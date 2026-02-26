@@ -23,7 +23,7 @@ export const calendarsConfig: CalendarConfig[] = [
 			{ key: 'gym', label: 'Gym', color: '#ef4444' },
 		],
 	},
-	\n
+	<br>
 	{
 		title: 'Guitar',
 		options: [

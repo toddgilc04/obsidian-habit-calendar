@@ -154,7 +154,7 @@ export default function CalendarPage({ initialActivities }: CalendarPageProps) {
 					>
 						<MdChevronLeft size={28} />
 					</button>
-					<div className="flex flex-wrap gap-4 justify-center"> //from <div className="flex gap-4 shrink-0">
+					<div className="flex flex-wrap gap-4 justify-center"> 
 						{calendarsConfig.map((config, idx) => (
 							<MultiOptionCalendar
 								key={idx}

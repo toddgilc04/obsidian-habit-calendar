@@ -4,3 +4,22 @@
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+<div className="calendar-container">
+  {calendarsConfig.map((calendar) => (
+    <Calendar key={calendar.title} config={calendar} />
+  ))}
+</div>
+
+.calendar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.calendar-container > * {
+  flex: 1 1 280px;
+  max-width: 350px;
+}
+
+                                        

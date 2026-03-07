@@ -18,9 +18,10 @@ export const calendarsConfig: CalendarConfig[] = [
 		],
 	},
 	{
-		title: 'Gym',
+		title: 'Gym / Stretching',
 		options: [
 			{ key: 'gym', label: 'Gym', color: '#ef4444' },
+			{ key: 'stretching', label: 'Stretching', color: '#f37373' },
 		],
 	},
 	{
